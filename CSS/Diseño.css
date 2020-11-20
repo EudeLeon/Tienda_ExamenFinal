@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+   --purple-dark: #170312;
+   --purple-medium: #33032d;
+   --purple-light: #531253;
+   --gray-light: #eaeaea;
+   --white: #f4fffd;
+}
+body{
+    font-size: 20px;
+    font-family: 'Open Sans',sans-serif;
+}
+p{
+    font-size: 22px;
+}
+.contenedor{
+    background-image: url(../img/tienda.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contenedor .texto{
+    width: calc(100vw - 20px);
+    height: 100vh;
+    font-size: 150px;
+    font-weight: 400;
+    font-family: "Noto Serif", serif;
+    font-style: italic;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color:#856404;
+    mix-blend-mode: multiply;
+}
+.menu{
+    background-color: var(--purple-medium);
+    width:100%;
+    top: 0;
+    padding: 5px;
+    z-index: 999;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Noto Serif',serif;
+    font-style: italic;
+    margin-bottom: 60px;
+}
+.menu a{
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 26px;
+    background-color: var(--purple-medium);
+    margin: 0 10px;
+    transition: .5s ease all;
+    color: var(--gray-light);
+    text-decoration: none;
+}
+.menu a:hover{
+    transform: translateY(18px);
+    background-color: var(--purple-light);
+}
+.lista-Producto{
+    width: 82%;
+  display: flex;    
+  flex-wrap: wrap;
+  
+}
+
+.lista-Producto .Producto-item img{
+    width: 100%;
+    background: pink;
+}
+
+.lista-Producto .Producto-item {
+    width: 22%;
+    margin-left: 3%;
+    background:pink;
+    margin-bottom: 25px;
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.22);
+}
+
+.lista-Producto .Producto-item a{
+   display:block; 
+    width: 80%;
+    padding: 8px 0;
+    background:red;
+       margin-left: 10%;
+    
+    color:white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.lista-Producto .Producto-item> h3{
+ 
+    
+    color:white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.lista-Producto .Producto-item> h1{
+ 
+    
+    color:white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.lista-Producto .Producto-item> h5{
+ 
+    
+    color:white;
+    text-align: center;
+    text-decoration: none;
+}
+.contenedorProductos{
+    background-image: url(../img/tienda.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
